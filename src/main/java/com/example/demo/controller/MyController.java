@@ -1,8 +1,8 @@
-package com.example.demo.Controller;
+package com.example.demo.controller;
 import java.util.List;
 
-import com.example.demo.User;
-import com.example.demo.Mongorepo;
+import com.example.demo.model.User;
+import com.example.demo.repository.Mongorepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
