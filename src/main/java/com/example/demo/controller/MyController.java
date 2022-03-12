@@ -6,6 +6,7 @@ import com.example.demo.repository.Mongorepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+@CrossOrigin
 @RequestMapping("api/v1/")
 @RestController
 public class MyController {
